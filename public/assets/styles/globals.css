@@ -1,0 +1,14 @@
+@import url('./spinner.css');
+@import url('../fonts/Poppins/poppins.style.css');
+
+*,
+html {
+    touch-action: manipulation;
+    /* Desactiva el comportamiento táctil que puede permitir zoom */
+    font-size: 14px;
+    font-family: 'Poppins';
+}
+
+.animated {
+    transition: .5s ease all;
+}
